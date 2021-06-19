@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj chat app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <div class="left">
+                <img height="25" src="/wassup.png" alt="">
+                <h1>Suraj Yadav</h1>
+            </div>
+            <div class="connections">
+
+            </div>
+        </div>
+        <div class="message__area">
+            <!-- <div class="incoming message">
+                <h4>rakesh</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+            </div>
+            <div class="outgoing message">
+                <h4>rakesh</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+            </div>
+            <div class="outgoing message">
+                <h4>rakesh</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+            </div>
+            <div class="outgoing message">
+                <h4>rakesh</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+            </div>
+            <div class="outgoing message">
+                <h4>rakesh</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+            </div> -->
+
+
+        </div>
+        <div>
+            <textarea id="textarea" cols="5" rows="1" placeholder="Write a message..." >
+            </textarea>
+        </div>
+    </section>
+
+    <!--we are importing this javascript file from server
+        which socket.io library already configured when we
+        connected it with http module -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- this is our custom javascript file you can name it anything... -->
+
+    <script src="/client.js"></script>
+</body>
+
+</html>
